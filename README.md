@@ -1,3 +1,7 @@
+[![make.fun · black-friday-deal-finder-01](https://make.fun/badge/black-friday-deal-finder-01.svg)](https://make.fun/bounty/black-friday-deal-finder-01)
+[![rank](https://make.fun/badge/black-friday-deal-finder-01/ruri08219/black-friday-deal-finder-01/rank.svg)](https://make.fun/bounty/black-friday-deal-finder-01/leaderboard)
+[![reward](https://make.fun/badge/black-friday-deal-finder-01/ruri08219/black-friday-deal-finder-01/reward.svg)](https://make.fun/bounty/black-friday-deal-finder-01)
+
 # Deal Lantern — Black Friday deal finder
 
 A static deal finder for Black Friday & Cyber Monday 2026: 28 real deals from
