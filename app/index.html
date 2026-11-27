@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deal Lantern — Black Friday deals, checked today</title>
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <p class="brand"><span class="flame" aria-hidden="true">&#9679;</span> Deal Lantern</p>
+    <p class="tag">Black Friday &amp; Cyber Monday deals, checked today — not copied from a list.</p>
+  </div>
+</header>
+<div class="strip">
+  <div class="wrap">
+    <span><strong>28</strong> deals</span>
+    <span><strong>13</strong> stores</span>
+    <span><strong>3</strong> record lows</span>
+    <span>Checked <strong>27 Nov 2026</strong></span>
+  </div>
+</div>
+<main class="wrap" id="app">
+  <section class="controls" aria-label="Find a deal">
+    <input id="search" type="search" placeholder="Search a product, store or category…" aria-label="Search deals">
+    <select id="category" aria-label="Filter by category"></select>
+    <select id="store" aria-label="Filter by store"></select>
+    <select id="discount" aria-label="Minimum discount">
+      <option value="0">Any discount</option>
+      <option value="20">20% off or more</option>
+      <option value="40">40% off or more</option>
+      <option value="50">50% off or more</option>
+      <option value="60">60% off or more</option>
+    </select>
+    <select id="sort" aria-label="Sort deals">
+      <option value="score">Best deal score</option>
+      <option value="discount">Biggest discount</option>
+      <option value="price">Lowest price</option>
+      <option value="savings">Biggest saving</option>
+    </select>
+  </section>
+  <p id="count" class="count"></p>
+  <div id="grid" class="grid"></div>
+  <section class="how">
+    <h2>How every deal on this board was checked</h2>
+    <p>Each price was read on 27 November 2026 at the store or in a deals source that names the store — Tom&rsquo;s Guide&rsquo;s Black Friday roundup and Hunt4Freebies&rsquo; live list (prices verified 26 Nov 2026). Every card shows when its price was checked and where it was read. Nothing here is invented, and no price is an earlier sale&rsquo;s.</p>
+    <p><strong>What the verdict means.</strong> <span class="verdict newlow">NEW LOW</span> is the lowest price the source has ever seen for that product. <span class="verdict strong">STRONG</span> is a deep verified discount of 40% or more. <span class="verdict routine">ROUTINE</span> is a real discount, just an ordinary one. The deal score is the discount plus a bonus for a record low.</p>
+    <p id="checked-note"></p>
+    <p class="fine">Prices move and deals sell out — a store link opens the product at its store so you can see the price live before you buy. Deal Lantern is an independent finder and is not affiliated with any store named here.</p>
+  </section>
+</main>
+<footer class="foot">
+  <div class="wrap">Deal Lantern · Black Friday 2026 · 28 deals from 13 stores, all checked 27 Nov 2026.</div>
+</footer>
+</body>
+</html>
